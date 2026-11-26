@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90A2933BCE9D9372977487A6 /* PetCareDiaryApp.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 3C02B22A88D129C395E06EE8 /* PetCareDiaryApp.swift */; };
+		6AF183D1D6F34383E4EE4035 /* Assets.xcassets in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 1D18080090E4D43AE61FED35 /* Assets.xcassets */; };
+		FCB9E275ABA62D04B2C82D85 /* Pet.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 4D134F845E844CBCAF28192C /* Pet.swift */; };
+		4A99309C0285AF3911AC6D7B /* Species.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = ACFCFB342C3C2891C78C6DD6 /* Species.swift */; };
+		E297EB4DDC6744443A7141F1 /* VaccinationStatus.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 54AF65ED8AD6158D05EAEFB8 /* VaccinationStatus.swift */; };
+		4A96AA41DAD75C91C7AD2268 /* VetAppointment.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 97A7BDE5317C08ED6C5A5105 /* VetAppointment.swift */; };
+		F5E077E9EF6DB798B4A05E98 /* AppointmentViewModel.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = BD29E4C73D5EBE1D14D4D15D /* AppointmentViewModel.swift */; };
+		254C6998B24D0D393C2F4C4F /* AuthViewModel.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 56E7B29F028D6E5A255FEA61 /* AuthViewModel.swift */; };
+		38F0AD5854B12CCE55E72CB9 /* DashboardViewModel.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 1FF581EF5F7E9DED5F84FEB1 /* DashboardViewModel.swift */; };
+		95FE4C254F1ED0431B8F6455 /* PetViewModel.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 3BBF18F6193EFAA35EF5CEA7 /* PetViewModel.swift */; };
+		BF513E933197F182442BB450 /* BiometricAuthService.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = E3957B7A0D2AE85957F7B8BB /* BiometricAuthService.swift */; };
+		E405E26873BC8DD3B07DAA85 /* SampleDataService.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 980D0A9D94AD974B1B5B5C7B /* SampleDataService.swift */; };
+		2B2427BFF74A81C41FF4F25C /* ContentView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = C377D0A9C413EFCE745110FB /* ContentView.swift */; };
+		EC1729F25532C1854E9113F7 /* RootView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = D7B692C900F99F3965FA1832 /* RootView.swift */; };
+		F35F0E6B48CCBD39A40B7E55 /* LoginView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = F30436045C67085A17C27736 /* LoginView.swift */; };
+		CF46E2952CF70C2C77845DEC /* DashboardView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = EE5806FF6E99B1588FD0F465 /* DashboardView.swift */; };
+		B3E327246E49818F27C18580 /* StatCardView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 7E6AC2D21C87276BA82C90E1 /* StatCardView.swift */; };
+		4B107B836FF3B01C511B00CF /* UpcomingVisitCard.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 199F012878278F1E397FF487 /* UpcomingVisitCard.swift */; };
+		FEEB8D24C2B3CD198CCD9025 /* AddPetView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = D7641D4070BAEFB4A41C0152 /* AddPetView.swift */; };
+		B16526AEEE8E3D614C2EF5BB /* EditPetView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = EEC855FB1217A308F64DA225 /* EditPetView.swift */; };
+		067396F1C3F6636163CF3AC4 /* PetDetailView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 53EEFB8388F8260C994EEBAF /* PetDetailView.swift */; };
+		E0C9F183CAC9176C0E0D920A /* PetListView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = C4783CE9938F81934DCDF12A /* PetListView.swift */; };
+		2153E9F23FFC54A3AC649BE0 /* PetRowCard.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 0D2C706C126441708E50CE08 /* PetRowCard.swift */; };
+		731AF22F8EFE84C15D467CF4 /* SpeciesFilterChip.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 3640E92A05821C24A233399D /* SpeciesFilterChip.swift */; };
+		ACE0F5285673D172F07963B8 /* VaccinationBadge.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = C6B0C4CBF73465F106ED045F /* VaccinationBadge.swift */; };
+		B5080F154DB04B8CF90C4E86 /* AddAppointmentView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = B1BC7947CE366743AE2799F3 /* AddAppointmentView.swift */; };
+		75F776802D02C78C5353A1EA /* AppointmentListView.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 225342C80AB135C19E03F67C /* AppointmentListView.swift */; };
+		4A2EE8BA49DAFBF1168A3600 /* AppointmentRowCard.swift in Sources/Resources */ = {isa = PBXBuildFile; fileRef = 2FF09230296129B2FFD36D67 /* AppointmentRowCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90ABCD256D94A38B6F5DC6B6 /* PetCareDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetCareDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C02B22A88D129C395E06EE8 /* PetCareDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCareDiaryApp.swift; sourceTree = "<group>"; };
+		0116A3A0A1C70A29B8045D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D18080090E4D43AE61FED35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D134F845E844CBCAF28192C /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		ACFCFB342C3C2891C78C6DD6 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
+		54AF65ED8AD6158D05EAEFB8 /* VaccinationStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationStatus.swift; sourceTree = "<group>"; };
+		97A7BDE5317C08ED6C5A5105 /* VetAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetAppointment.swift; sourceTree = "<group>"; };
+		BD29E4C73D5EBE1D14D4D15D /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		56E7B29F028D6E5A255FEA61 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		1FF581EF5F7E9DED5F84FEB1 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		3BBF18F6193EFAA35EF5CEA7 /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		E3957B7A0D2AE85957F7B8BB /* BiometricAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthService.swift; sourceTree = "<group>"; };
+		980D0A9D94AD974B1B5B5C7B /* SampleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataService.swift; sourceTree = "<group>"; };
+		C377D0A9C413EFCE745110FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7B692C900F99F3965FA1832 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F30436045C67085A17C27736 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EE5806FF6E99B1588FD0F465 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		7E6AC2D21C87276BA82C90E1 /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
+		199F012878278F1E397FF487 /* UpcomingVisitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingVisitCard.swift; sourceTree = "<group>"; };
+		D7641D4070BAEFB4A41C0152 /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
+		EEC855FB1217A308F64DA225 /* EditPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetView.swift; sourceTree = "<group>"; };
+		53EEFB8388F8260C994EEBAF /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		C4783CE9938F81934DCDF12A /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
+		0D2C706C126441708E50CE08 /* PetRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRowCard.swift; sourceTree = "<group>"; };
+		3640E92A05821C24A233399D /* SpeciesFilterChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesFilterChip.swift; sourceTree = "<group>"; };
+		C6B0C4CBF73465F106ED045F /* VaccinationBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationBadge.swift; sourceTree = "<group>"; };
+		B1BC7947CE366743AE2799F3 /* AddAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentView.swift; sourceTree = "<group>"; };
+		225342C80AB135C19E03F67C /* AppointmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListView.swift; sourceTree = "<group>"; };
+		2FF09230296129B2FFD36D67 /* AppointmentRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRowCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA26F80E8A7101DE1F176429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685415DD8B08A0C375BD735C = {
+			isa = PBXGroup;
+			children = (
+				72827AC3B732D9A9E8FE9AD8 /* PetCareDiary */,
+				B949E4C49976EB0C7566E16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B949E4C49976EB0C7566E16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90ABCD256D94A38B6F5DC6B6 /* PetCareDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72827AC3B732D9A9E8FE9AD8 /* PetCareDiary */ = {
+			isa = PBXGroup;
+			children = (
+				3C02B22A88D129C395E06EE8 /* PetCareDiaryApp.swift */,
+				B43C1F80F32D17B1FFFDC89E /* Models */,
+				0CCBA9E14E9A62B4368EFAE9 /* ViewModels */,
+				D7E6068F870C3DCB71BB9697 /* Services */,
+				1E7F9FFA281F97DBB024341A /* Views */,
+				1D18080090E4D43AE61FED35 /* Assets.xcassets */,
+				0116A3A0A1C70A29B8045D0A /* Info.plist */,
+			);
+			path = PetCareDiary;
+			sourceTree = "<group>";
+		};
+		B43C1F80F32D17B1FFFDC89E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D134F845E844CBCAF28192C /* Pet.swift */,
+				ACFCFB342C3C2891C78C6DD6 /* Species.swift */,
+				54AF65ED8AD6158D05EAEFB8 /* VaccinationStatus.swift */,
+				97A7BDE5317C08ED6C5A5105 /* VetAppointment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CCBA9E14E9A62B4368EFAE9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BD29E4C73D5EBE1D14D4D15D /* AppointmentViewModel.swift */,
+				56E7B29F028D6E5A255FEA61 /* AuthViewModel.swift */,
+				1FF581EF5F7E9DED5F84FEB1 /* DashboardViewModel.swift */,
+				3BBF18F6193EFAA35EF5CEA7 /* PetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D7E6068F870C3DCB71BB9697 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E3957B7A0D2AE85957F7B8BB /* BiometricAuthService.swift */,
+				980D0A9D94AD974B1B5B5C7B /* SampleDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1E7F9FFA281F97DBB024341A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				741C1DD392CE7E8C5D632513 /* Main */,
+				66EAF3C0CB1577DA872A3A76 /* Authentication */,
+				B599CE925225C6BBC82CA228 /* Dashboard */,
+				9F2DC27AD8D98E9C61D71993 /* Pets */,
+				08AF6F510297979B9B6EBF2B /* Appointments */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		741C1DD392CE7E8C5D632513 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C377D0A9C413EFCE745110FB /* ContentView.swift */,
+				D7B692C900F99F3965FA1832 /* RootView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		66EAF3C0CB1577DA872A3A76 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F30436045C67085A17C27736 /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B599CE925225C6BBC82CA228 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EE5806FF6E99B1588FD0F465 /* DashboardView.swift */,
+				7E6AC2D21C87276BA82C90E1 /* StatCardView.swift */,
+				199F012878278F1E397FF487 /* UpcomingVisitCard.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		9F2DC27AD8D98E9C61D71993 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				D7641D4070BAEFB4A41C0152 /* AddPetView.swift */,
+				EEC855FB1217A308F64DA225 /* EditPetView.swift */,
+				53EEFB8388F8260C994EEBAF /* PetDetailView.swift */,
+				C4783CE9938F81934DCDF12A /* PetListView.swift */,
+				0D2C706C126441708E50CE08 /* PetRowCard.swift */,
+				3640E92A05821C24A233399D /* SpeciesFilterChip.swift */,
+				C6B0C4CBF73465F106ED045F /* VaccinationBadge.swift */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		08AF6F510297979B9B6EBF2B /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				B1BC7947CE366743AE2799F3 /* AddAppointmentView.swift */,
+				225342C80AB135C19E03F67C /* AppointmentListView.swift */,
+				2FF09230296129B2FFD36D67 /* AppointmentRowCard.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC529DD236D15C8FADD45347 /* PetCareDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2BC0A4AB0708B4CF2F23E4 /* Build configuration list for PBXNativeTarget "PetCareDiary" */;
+			buildPhases = (
+				B6EC65C133A01C11709D3832 /* Sources */,
+				FA26F80E8A7101DE1F176429 /* Frameworks */,
+				BE2E6AA67A3F3708CED26E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetCareDiary;
+			productName = PetCareDiary;
+			productReference = 90ABCD256D94A38B6F5DC6B6 /* PetCareDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8E2D2510E25C557492FF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DC529DD236D15C8FADD45347 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3A29868A0F77C2976171CB69 /* Build configuration list for PBXProject "PetCareDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685415DD8B08A0C375BD735C;
+			productRefGroup = B949E4C49976EB0C7566E16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC529DD236D15C8FADD45347 /* PetCareDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2E6AA67A3F3708CED26E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF183D1D6F34383E4EE4035 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EC65C133A01C11709D3832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A2933BCE9D9372977487A6 /* PetCareDiaryApp.swift in Sources */,
+				FCB9E275ABA62D04B2C82D85 /* Pet.swift in Sources */,
+				4A99309C0285AF3911AC6D7B /* Species.swift in Sources */,
+				E297EB4DDC6744443A7141F1 /* VaccinationStatus.swift in Sources */,
+				4A96AA41DAD75C91C7AD2268 /* VetAppointment.swift in Sources */,
+				F5E077E9EF6DB798B4A05E98 /* AppointmentViewModel.swift in Sources */,
+				254C6998B24D0D393C2F4C4F /* AuthViewModel.swift in Sources */,
+				38F0AD5854B12CCE55E72CB9 /* DashboardViewModel.swift in Sources */,
+				95FE4C254F1ED0431B8F6455 /* PetViewModel.swift in Sources */,
+				BF513E933197F182442BB450 /* BiometricAuthService.swift in Sources */,
+				E405E26873BC8DD3B07DAA85 /* SampleDataService.swift in Sources */,
+				2B2427BFF74A81C41FF4F25C /* ContentView.swift in Sources */,
+				EC1729F25532C1854E9113F7 /* RootView.swift in Sources */,
+				F35F0E6B48CCBD39A40B7E55 /* LoginView.swift in Sources */,
+				CF46E2952CF70C2C77845DEC /* DashboardView.swift in Sources */,
+				B3E327246E49818F27C18580 /* StatCardView.swift in Sources */,
+				4B107B836FF3B01C511B00CF /* UpcomingVisitCard.swift in Sources */,
+				FEEB8D24C2B3CD198CCD9025 /* AddPetView.swift in Sources */,
+				B16526AEEE8E3D614C2EF5BB /* EditPetView.swift in Sources */,
+				067396F1C3F6636163CF3AC4 /* PetDetailView.swift in Sources */,
+				E0C9F183CAC9176C0E0D920A /* PetListView.swift in Sources */,
+				2153E9F23FFC54A3AC649BE0 /* PetRowCard.swift in Sources */,
+				731AF22F8EFE84C15D467CF4 /* SpeciesFilterChip.swift in Sources */,
+				ACE0F5285673D172F07963B8 /* VaccinationBadge.swift in Sources */,
+				B5080F154DB04B8CF90C4E86 /* AddAppointmentView.swift in Sources */,
+				75F776802D02C78C5353A1EA /* AppointmentListView.swift in Sources */,
+				4A2EE8BA49DAFBF1168A3600 /* AppointmentRowCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		202AF5F1F77A76F6464D865E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478E9686C87A24CEE9B859F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+			};
+			name = Release;
+		};
+		49EEFAEF0835FA6345F494DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PetCareDiary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pet Care Diary";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely unlock your Pet Care Diary.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PetCareDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				UISUPPORTED_INTERFACE_ORIENTATIONS = "UIInterfaceOrientationPortrait";
+			};
+			name = Debug;
+		};
+		FA2D21EE93844F86DF859EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PetCareDiary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pet Care Diary";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely unlock your Pet Care Diary.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PetCareDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				UISUPPORTED_INTERFACE_ORIENTATIONS = "UIInterfaceOrientationPortrait";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A29868A0F77C2976171CB69 /* Build configuration list for PBXProject "PetCareDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202AF5F1F77A76F6464D865E /* Debug */,
+				478E9686C87A24CEE9B859F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2BC0A4AB0708B4CF2F23E4 /* Build configuration list for PBXNativeTarget "PetCareDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EEFAEF0835FA6345F494DB /* Debug */,
+				FA2D21EE93844F86DF859EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = CC8E2D2510E25C557492FF93 /* Project object */;
+}
